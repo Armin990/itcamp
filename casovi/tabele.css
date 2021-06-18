@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+ table, tr, th, td  {
+border: 1px black solid;
+padding: 10px;
+}
+th{
+    font-size: 30px;
+}
+thead{
+    background-color: rgb(122, 163, 122);
+    color: white;
+    
+}
+tr:nth-child(even) {
+    background-color: rgb(224, 219, 219);
+}
+button{
+    background-color: rgb(122, 163, 122);
+    color: white;
+}
+table tbody tr td {
+    text-align: left;
+    padding: 10px;
+}
+
+table tfoot tr th {
+    padding: 10px;
+}
+table tfoot tr th button {
+    border-radius: 5px;
+}
+table tbody tr:nth-child(1) td {
+    text-align: right;
+}
+button {
+    font-size: 20px;
+}

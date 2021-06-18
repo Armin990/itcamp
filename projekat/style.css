@@ -1,0 +1,109 @@
+body{
+    background-image: url(uvac.jpg);
+    
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    height: 100px;
+   /* border: 1px black solid; */
+    text-align: center;
+    font-size: 3em;
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+.content {
+    width: 100%;
+    height: 1250px;
+    /* border: 1px black solid; */
+    display: flex;
+}
+.meni, .reklame {
+    width: 20%;
+    height: auto;
+    /* border: 1px black solid; */
+    display: block;
+    line-height: 80px;
+    font-size: 30px;
+}
+.meni1 a {
+    text-decoration: none;
+    color:black;
+}
+.meni1 li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.meni1 li:hover {
+    background-color: rgba(96, 149, 189, 0.5);
+    color: white;
+}
+.glavni {
+    width: 80%;
+    height: auto;
+    /* border: 1px black solid;  */
+    font-size: 20px;
+   /* display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;*/
+    padding: 10px;
+   
+}
+.footer {
+    width: 100%;
+    height: 50px;
+   border: 1px black solid;
+    background-color: rgb(83, 81, 81);
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    display: block;
+    bottom: 0;
+}
+.Onama {
+    width: 400px;
+    height: 320px;
+    float: left;
+    /*text-align: justify;*/
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(250, 246, 250, 0.6);   
+}
+.zanimljivosti {
+    width: 400px;
+    height: 700px;
+    float: left;
+    /*text-align: justify;*/
+    padding: 15px;
+    margin: 100px 0px 0px 10px;
+    border-radius: 10px;
+    background-color: rgba(250, 246, 250, 0.6);
+}
+.Legende {
+    width: 400px;
+    height: 370px;
+    float: left;
+    padding: 15px;
+    margin-top: -300px;
+    border-radius: 10px;
+    background-color: rgba(250, 246, 250, 0.6);
+}
+ .Onama:hover {
+    border: 3px rgb(101, 137, 165, 0.6) solid;
+}
+.zanimljivosti:hover{
+    border:3px rgb(101, 137, 165, 0.6) solid;  
+}
+.Legende:hover{
+    border:3px rgb(101, 137, 165, 0.6) solid;
+}
+
+    
